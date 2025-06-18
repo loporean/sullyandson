@@ -7,7 +7,9 @@
   */
 
   // Replace contact@example.com with your real receiving email address
-  $receiving_email_address = 'contact@example.com';
+  // $receiving_email_address = 'contact@example.com';
+  $receiving_email_address = 'spencer@sullyandson.com';
+
 
   if( file_exists($php_email_form = '../assets/vendor/php-email-form/php-email-form.php' )) {
     include( $php_email_form );
@@ -24,14 +26,14 @@
   $contact->subject = 'Request for a quote';
 
   // Uncomment below code if you want to use SMTP to send emails. You need to enter your correct SMTP credentials
-  /*
-  $contact->smtp = array(
-    'host' => 'example.com',
-    'username' => 'example',
-    'password' => 'pass',
-    'port' => '587'
-  );
-  */
+  
+  // $contact->smtp = array(
+  //   'host' => 'smtp.mailersend.net',
+  //   'username' => 'MS_PCKzKq@test-eqvygm0r65dl0p7w.mlsender.net',
+  //   'password' => 'mssp.Cf4y6A6.jy7zpl971m0g5vx6.QQdiZhL',
+  //   'port' => '587'
+  // );
+  
 
   $contact->add_message( $_POST['name'], 'From');
   $contact->add_message( $_POST['email'], 'Email');
