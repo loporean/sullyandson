@@ -154,13 +154,8 @@ h6 {
 }
 
 .header .logo img {
-  /* max-height: 32px;
-  margin-right: 8px; */
-  max-height: 48px;
-  margin-right: 24px;
-  /* Added for logo rounding */
-  border-radius: 3%;
-  border: 1px solid black;
+  max-height: 32px;
+  margin-right: 8px;
 }
 
 .header .logo h1 {
