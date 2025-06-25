@@ -1,52 +1,37 @@
 # Sully & Son Hydraulics
 
-> Family-owned. Quality-driven. Serving Bakersfield for over 40 years.
+> Family-owned. Quality-driven. Serving Bakersfield, CA for over 40 years.
 
-Visit the live site:  
-🔗 **[loporean.github.io/sullyandson](https://loporean.github.io/sullyandson/)**
-
----
-
-## 🛠 What We Do
-
-We provide expert hydraulic service, parts, and support for industries like:
-
-- Agriculture  
-- Oil & Gas  
-- Construction  
-- Manufacturing  
-
-From custom hoses and fittings to full pump and cylinder rebuilds, we do it all — fast, fair, and local.
+**Live Site:** [https://loporean.github.io/sullyandson](https://loporean.github.io/sullyandson)
 
 ---
 
-## 🔧 Services
+## Table of Contents
 
-- Hydraulic Repairs & Rebuilds  
-- Custom Hoses & Fittings  
-- Pumps, Motors, Cylinders, Valves  
-- On-site Service Calls  
-- In-house Machining & Welding  
-
----
-
-## ⭐ Why People Trust Us
-
-> "Repaired my hose while I waited—charged me so little I felt guilty."  
-> "Great people, recommended 100%!"  
-> "Marvin was so knowledgeable. Very reasonable prices."
+- [Background](#background)
+- [Install](#install)
+- [Usage](#usage)
+- [Services](#services)
+- [Contact](#contact)
+- [Testimonials](#testimonials)
+- [Contributing](#contributing)
+- [License](#license)
 
 ---
 
-## 📍 Contact
+## Background
 
-**Sully & Son Hydraulics Inc.**  
-2500 E. Brundage Lane  
-Bakersfield, CA 93307
+This repository hosts the website for **Sully & Son Hydraulics Inc.**, a full-service hydraulic supplier in Bakersfield, CA. The business specializes in hydraulic parts, service, and on-site support for a wide range of industries including agriculture, oil & gas, and construction.
 
-📞 (661) 322-2027  
-📧 sales@sullyandson.com
+The goal of this website is to provide a clear overview of services offered, make it easy for customers to get in touch, and reflect the company’s commitment to quality and speed.
 
 ---
 
-_Proudly serving Bakersfield since 1980._
+## Install
+
+This project is built with static HTML and CSS. You do **not** need a build process or Node.js to run it.
+
+Clone the repository:
+
+```bash
+git clone https://github.com/loporean/sullyandson.git
