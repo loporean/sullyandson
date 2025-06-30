@@ -27,12 +27,12 @@
 
   // Uncomment below code if you want to use SMTP to send emails. You need to enter your correct SMTP credentials
   
-  // $contact->smtp = array(
-  //   'host' => 'smtp.mailersend.net',
-  //   'username' => 'MS_PCKzKq@test-eqvygm0r65dl0p7w.mlsender.net',
-  //   'password' => 'mssp.Cf4y6A6.jy7zpl971m0g5vx6.QQdiZhL',
-  //   'port' => '587'
-  // );
+  $contact->smtp = array(
+    'host' => 'mail.smtp2go.com',
+    'username' => 'sullyandson.com',
+    'password' => 'IGdUzCnl4ioRxzIL',
+    'port' => '2525'
+  );
   
 
   $contact->add_message( $_POST['name'], 'From');
