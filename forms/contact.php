@@ -8,6 +8,7 @@
 
   // Replace contact@example.com with your real receiving email address
   // $receiving_email_address = 'contact@example.com';
+  $receiving_email_address = 'sales@sullyandson.com';
 
 
   if( file_exists($php_email_form = '../assets/vendor/php-email-form/php-email-form.php' )) {
@@ -33,6 +34,13 @@
     'port' => '587'
   );
   */
+
+    $contact->smtp = array(
+    'host' => 'mail.smtp2go.com',
+    'username' => 'sullyandson.com',
+    'password' => 'IGdUzCnl4ioRxzIL',
+    'port' => '2525'
+  );
 
   $contact->add_message( $_POST['name'], 'From');
   $contact->add_message( $_POST['email'], 'Email');
