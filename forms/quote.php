@@ -29,8 +29,8 @@
   
   $contact->smtp = array(
     'host' => 'mail.smtp2go.com',
-    'username' => 'sullyandson.com',
-    'password' => 'IGdUzCnl4ioRxzIL',
+    'username' => '',
+    'password' => '',
     'port' => '2525'
   );
   
